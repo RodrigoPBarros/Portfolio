@@ -17,7 +17,7 @@ Portfólio pessoal desenvolvido do zero com foco em design minimalista, identida
 
 ## 🔗 Acesse
 
-👉 **[rodrigopbarros.github.io/portfolio](https://rodrigopbarros.github.io/portfolio)**
+👉 **[rodrigopbarros.github.io/portfolio](https://rodrigopbarros.github.io/Portfolio/)**
 
 ---
 
