@@ -29,28 +29,46 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
-    padding: 20px 60px;
-    background: rgba(10, 10, 10, 0.9);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--border);
+    background: rgba(15, 15, 15, 0.95);
+    border-bottom: 1px solid var(--accent);
 }
 
-nav {
+header nav:first-child {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1100px;
     margin: 0 auto;
+    padding: 12px 60px;
+    border-bottom: 1px solid var(--border);
 }
 
 .nav-logo {
-    font-size: 1.2rem;
+    font-size: 0.95rem;
     font-weight: 700;
-    color: var(--accent);
-    letter-spacing: 3px;
+    color: var(--text);
+    letter-spacing: 1px;
 }
 
-nav ul {
+.nav-logo .nav-version {
+    color: var(--text-soft);
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+#clock-nav {
+    font-size: 0.9rem;
+    color: var(--accent);
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px 60px;
+}
+
+.nav-links ul {
     display: flex;
     list-style: none;
     gap: 40px;
@@ -59,7 +77,7 @@ nav ul {
 nav a {
     text-decoration: none;
     color: var(--text-soft);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     letter-spacing: 1px;
     transition: color 0.3s;
 }
@@ -69,7 +87,7 @@ nav a:hover {
 }
 
 nav a.active {
-    color: var(--text);
+    color: var(--accent);
 }
 
 main {
